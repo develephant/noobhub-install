@@ -12,8 +12,12 @@ NHID=noobhub
 NHDIR=/usr/local/noobhub/NoobHub/server
 NHLOG=/usr/local/noobhub/noobhub.log
 
+clear
+
+echo ''
+
 function start() {
-  forever start --uid "${$NHID}" --minUptime 1000 --spinSleepTime 10000 --sourceDir $NHDIR --killSignal=SIGTERM -l $NHLOG -a node.js
+  forever start --uid "${NHID}" --minUptime 1000 --spinSleepTime 10000 --sourceDir $NHDIR -l $NHLOG -e err.log -a node.js
 }
 
 function stop() {
@@ -25,11 +29,11 @@ function restart() {
 }
 
 function logs() {
-  forever logs $NHID
+  tail -f $NHLOG
 }
 
 function cleanlogs() {
-  forever cleanlogs
+  echo '' > $NHLOG
 }
 
 function status() {
@@ -40,14 +44,14 @@ function usage() {
   echo ''
   echo '=> NoobHub CLI Commands'
   echo ''
-  echo "Status:\t\tnoobhub status"
+  echo -e "Status: \tnoobhub status"
   echo ''
-  echo "Start:\t\tnoobhub start"
-  echo "Stop:\t\tnoobhub stop"
-  echo "Restart:\t\tnoobhub restart"
+  echo -e "Start: \t\tnoobhub start"
+  echo -e "Stop: \t\tnoobhub stop"
+  echo -e "Restart: \tnoobhub restart"
   echo ''
-  echo "Logs:\t\tnoobhub logs"
-  echo "Clean Logs:\t\tnoobhub cleanlogs"
+  echo -e "Logs: \t\tnoobhub logs"
+  echo -e "Clean Logs: \tnoobhub cleanlogs"
   echo ''
   echo 'NoobHub CLI by develephant.com'
   echo ''
@@ -61,7 +65,7 @@ case $CMD in
     stop
   ;;
   'restart')
-    stop
+    restart
   ;;
   'logs')
     logs
