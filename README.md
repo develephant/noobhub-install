@@ -42,6 +42,14 @@ cd noobhub-install
 
 Watch along, and you should be all set!
 
+## CLI Usage
+
+To see what commands are available:
+
+```sh
+noobhub help
+```
+
 ## Corona Usage
 
 Download the NoobHub package, and look in the __clients__ directory for a __[Corona](https://coronalabs.com/)__ specific example.
