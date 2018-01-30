@@ -12,7 +12,7 @@ Select the __NodeJS__ choice under the __One-click apps__ section.
 
   ![node-do](img/node-box.png)
 
-Continue with the rest of the set up and the "Create".
+Continue with the rest of the set up and then __Create__.
 
 ## Installation
 
@@ -48,12 +48,12 @@ __[Click here to download NoobHub.](https://github.com/Overtorment/NoobHub/archi
 
 ### Free Hosting Credit
 
-Not a DigitalOcean member? __[Click here for $10 worth of free hosting](https://m.do.co/c/cddeeddbbdb8)__.
+Not a DigitalOcean member? __[Click here for $10 hosting credit](https://m.do.co/c/cddeeddbbdb8)__.
 
 ### Notes
 
-___Installer and CLI by C. Byerley (develephant.com)___
-
-__[NoobHub on GitHub](https://github.com/Overtorment/NoobHub)__
+___Installer and CLI by C. Byerley (https://develephant.com)___
 
 __[NoobHub Support Forum](http://forums.coronalabs.com/topic/32775-noobhub-free-opensource-multiplayer-and-network-messaging-for-coronasdk)__ 
+
+__[NoobHub on GitHub](https://github.com/Overtorment/NoobHub)__ (give it a :star:!)
