@@ -25,6 +25,8 @@ chmod /usr/local/bin a+x noobhub
 
 noobhub start
 
+clear
+
 echo ''
 echo '*******************************************************************'
 echo '=>NoobHub is now running on port 1337!'
