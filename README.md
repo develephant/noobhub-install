@@ -56,4 +56,4 @@ ___Installer and CLI by C. Byerley (https://develephant.com)___
 
 __[NoobHub Support Forum](http://forums.coronalabs.com/topic/32775-noobhub-free-opensource-multiplayer-and-network-messaging-for-coronasdk)__ 
 
-__[NoobHub on GitHub](https://github.com/Overtorment/NoobHub)__ (give it a :star:!)
+__[NoobHub on GitHub](https://github.com/Overtorment/NoobHub)__ (give it a :star:)
