@@ -3,6 +3,9 @@
 WD=`pwd`
 INSTALLDIR=/usr/local/noobhub
 
+clear
+
+echo ''
 echo '=> Installing NoobHub...'
 
 sleep 2
