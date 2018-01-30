@@ -1,0 +1,78 @@
+#!/bin/bash
+
+###############################################################################
+# NoobHub CLI
+# Created by C. Byerley (https://develephant.com)
+# NoobHub: https://github.com/Overtorment/NoobHub
+###############################################################################
+
+CMD=$1
+
+UID=noobhub
+NHDIR=/usr/local/noobhub/NoobHub/server
+NHLOG=/usr/local/noobhub/noobhub.log
+
+function start() {
+  forever start --uid "${$UID}" --minUptime 1000 --spinSleepTime 10000 --sourceDir $NHDIR --killSignal=SIGTERM -l $NHLOG -a node.js
+}
+
+function stop() {
+  forever stop $UID
+}
+
+function restart() {
+  forever restart $UID
+}
+
+function logs() {
+  forever logs $UID
+}
+
+function cleanlogs() {
+  forever cleanlogs
+}
+
+function status() {
+  forever list
+}
+
+function usage() {
+  echo ''
+  echo '=> NoobHub CLI Commands'
+  echo ''
+  echo "Status:\t\tnoobhub status"
+  echo ''
+  echo "Start:\t\tnoobhub start"
+  echo "Stop:\t\tnoobhub stop"
+  echo "Restart:\t\tnoobhub restart"
+  echo ''
+  echo "Logs:\t\tnoobhub logs"
+  echo "Clean Logs:\t\tnoobhub cleanlogs"
+  echo ''
+  echo 'NoobHub CLI by develephant.com'
+  echo ''
+}
+
+case $CMD in
+  'start')
+    start
+  ;;
+  'stop')
+    stop
+  ;;
+  'restart')
+    stop
+  ;;
+  'logs')
+    logs
+  ;;
+  'cleanlogs')
+    cleanlogs
+  ;;
+  'status')
+    status
+  ;;
+  *)
+    usage
+  ;;
+
