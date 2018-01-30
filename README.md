@@ -1,6 +1,6 @@
 # NoobHub Installer and CLI
 
-A NoobHub Installer for the DigitalOcean Node.js Droplet
+A NoobHub Installer for the DigitalOcean NodeJS Droplet
 
 ## DigitalOcean
 
