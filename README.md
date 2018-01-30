@@ -6,7 +6,7 @@ A NoobHub Installer for the DigitalOcean Node.js Droplet
 
 _These instructions assume you know how to use the [DigitalOcean](https://m.do.co/c/cddeeddbbdb8) control panel._
 
-Select "Create -> Droplets"
+Select __Create__ -> __Droplets__.
 
 Select the __NodeJS__ choice under the __One-click apps__ section.
 
@@ -37,6 +37,15 @@ cd noobhub-install
 ./install.sh
 ```
 
+Watch along, and you should be all set.
+
+## Corona Usage
+
+Download the NoobHub package, and look in the __clients__ directory for a __[Corona](https://coronalabs.com/)__ specific example.
+
+__[Click here to download NoobHub.](https://github.com/Overtorment/NoobHub/archive/master.zip)__
+
+
 ### Free Hosting Credit
 
 Not a DigitalOcean member? __[Click here for $10 worth of free hosting](https://m.do.co/c/cddeeddbbdb8)__.
@@ -46,4 +55,5 @@ Not a DigitalOcean member? __[Click here for $10 worth of free hosting](https://
 ___Installer and CLI by C. Byerley (develephant.com)___
 
 __[NoobHub on GitHub](https://github.com/Overtorment/NoobHub)__
+
 __[NoobHub Support Forum](http://forums.coronalabs.com/topic/32775-noobhub-free-opensource-multiplayer-and-network-messaging-for-coronasdk)__ 
