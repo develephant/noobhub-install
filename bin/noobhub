@@ -8,24 +8,24 @@
 
 CMD=$1
 
-UID=noobhub
+NHID=noobhub
 NHDIR=/usr/local/noobhub/NoobHub/server
 NHLOG=/usr/local/noobhub/noobhub.log
 
 function start() {
-  forever start --uid "${$UID}" --minUptime 1000 --spinSleepTime 10000 --sourceDir $NHDIR --killSignal=SIGTERM -l $NHLOG -a node.js
+  forever start --uid "${$NHID}" --minUptime 1000 --spinSleepTime 10000 --sourceDir $NHDIR --killSignal=SIGTERM -l $NHLOG -a node.js
 }
 
 function stop() {
-  forever stop $UID
+  forever stop $NHID
 }
 
 function restart() {
-  forever restart $UID
+  forever restart $NHID
 }
 
 function logs() {
-  forever logs $UID
+  forever logs $NHID
 }
 
 function cleanlogs() {
@@ -75,4 +75,5 @@ case $CMD in
   *)
     usage
   ;;
+  esac
 
