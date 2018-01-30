@@ -32,12 +32,13 @@ clear
 
 echo ''
 echo '*******************************************************************'
-echo '=>NoobHub is now running on port 1337!'
-echo '=>Installed in /usr/local/noobhub'
 echo ''
-echo 'Type: `noobhub help` for CLI options'
+echo '=> NoobHub is now running on port 1337!'
+echo '=> Installed in /usr/local/noobhub'
 echo ''
-echo '=>Installer brought to you by develephant.com'
+echo '=> Type: `noobhub help` for CLI options'
+echo ''
+echo '* Installer brought to you by develephant.com'
 echo '*******************************************************************'
 echo ''
 

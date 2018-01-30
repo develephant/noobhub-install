@@ -24,13 +24,11 @@ Log in with your `root` user:
 ssh root@your-droplet-ip
 ```
 
-Grab the __NoobHub Installer__ from GitHub.
+On the command line do the followng:
 
 ```sh
 git clone https://github.com/develephant/noobhub-install.git
 ```
-
-On the command line do the followng:
 
 ```sh
 cd noobhub-install
