@@ -5,7 +5,7 @@ INSTALLDIR=/usr/local/noobhub
 
 echo '=> Installing NoobHub...'
 
-wait 2
+sleep 2
 
 apt-get update
 
