@@ -10,7 +10,7 @@ _These instructions assume you know how to use the DigitalOcean control panel._
 
 1. Choose the Node.js choice under the __One-click apps__ section.
 
-![node-do](imgs/node-box.png)
+![node-do](img/node-box.png)
 
 1. Continue with the rest of the set up and the "Create".
 
