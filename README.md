@@ -34,6 +34,9 @@ On the command line do the followng:
 
 ```sh
 cd noobhub-install
+```
+
+```sh
 ./install.sh
 ```
 

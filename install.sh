@@ -19,7 +19,7 @@ git clone https://github.com/Overtorment/NoobHub.git
 
 ufw allow 1337/tcp
 
-cp $WD/noobhub-install/bin/noobhub /usr/local/bin/noobhub
+cp $WD/bin/noobhub /usr/local/bin/noobhub
 
 chmod /usr/local/bin a+x noobhub
 
