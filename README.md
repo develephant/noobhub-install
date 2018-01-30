@@ -56,7 +56,7 @@ noobhub help
 
 ### Free Hosting Credit
 
-Not a DigitalOcean member? __[Click here for $10 hosting credit](https://m.do.co/c/cddeeddbbdb8)__.
+Not a DigitalOcean member? __[Click here for a $10 hosting credit](https://m.do.co/c/cddeeddbbdb8)__.
 
 ### Notes
 
