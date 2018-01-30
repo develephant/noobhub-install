@@ -37,7 +37,7 @@ cd noobhub-install
 ./install.sh
 ```
 
-Watch along, and you should be all set.
+Watch along, and you should be all set!
 
 ## Corona Usage
 
